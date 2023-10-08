@@ -74,7 +74,7 @@ getgenv().ExunysDeveloperAimbot = {
 	},
 
 	Settings = {
-		Enabled = false,
+		Enabled = true,
 
 		TeamCheck = false,
 		AliveCheck = false,
@@ -94,7 +94,7 @@ getgenv().ExunysDeveloperAimbot = {
 	},
 
 	FOVSettings = {
-		Enabled = false,
+		Enabled = true,
 		Visible = false,
 
 		Radius = 90,
