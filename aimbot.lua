@@ -29,19 +29,19 @@ local Mouse = Client:GetMouse()
 local Camera = game:GetService("Workspace"):FindFirstChildOfClass("Camera")
 
 local MaxDistance = 1000
-local AimbotEnabled = false
+local AimbotEnabled = true
 local AimbotActive = false
 local VisibilityCheck = false
 local TeamCheck = false
 local InvisibleCheck = false
-local ShowFOV = false
+local ShowFOV = true
 local AimingAt = nil
 local Smoothness = 0
 local MovementPrediction = false
 local MovementPredictionStrength = 1
 
 local FOV_Color = Color3.fromRGB(255, 255, 255)
-local FOV_Size = 0
+local FOV_Size = 500
 
 local FOVCircle = Drawing.new("Circle")
 FOVCircle.Position = Vector2.new(0, 0)
